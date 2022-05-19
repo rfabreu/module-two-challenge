@@ -20,7 +20,7 @@
 }
 
 .bg-image {
-    background-image: url("../images/hero\ test.png");
+    background-image: url("../images/bg-hero.png");
     opacity: 0.8;
     background-size: cover;
     background-position: center;
