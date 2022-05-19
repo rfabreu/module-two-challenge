@@ -162,31 +162,45 @@ header a {
     margin-right: 40%;
     line-height: 1.4;
     margin-bottom: 40px;
+    margin-top: 10px;
+    padding-top: 20px;
 }
 #contact h1 {
     text-align: center;
-    border-bottom: 4px solid var(--DarkGray-Font);
+    color: var(--Light-FontColor);
+    border-bottom: 4px solid var(--Gray-Font);
     margin-left: 40%;
     margin-right: 40%;
     line-height: 1.4;
-    margin-bottom: 40px;
     margin-top: 10%;
+    padding-top: 8%;
 }
 
 .contact-container {
+    background-color: #000;
     background-image: url(../images/bg-footer.jpg);
+    background-position: 0px 600px;
 }
 
 .contact-form {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 40px;
+    padding: 0 30%;
+    padding-bottom: 10%;
+    justify-content: center;
+    margin-top: 8%;
+}
+.name-email {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 .contact-form input,
 .contact-form textarea {
     border: 1px solid var(--Button-Font);
     border-radius: 4px;
-    display: block;
+    display: flex;
     padding: 7px 15px;
     font-size: 16px;
     font-family: var(--Font-Family);
@@ -194,9 +208,12 @@ header a {
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
-    margin-left: 10%;
-    margin-right: 10%;
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.828);
+}
+
+.contact-form textarea {
+    width: 532px;
+    height: 200px;
 }
 
 .contact-form input:focus,
@@ -206,12 +223,48 @@ header a {
 }
 
 .contact-form button {
-    width: 100%;
+    width: 40%;
     border: none;
-    border-radius: 10px;
-    background: var(--primary-color);
-    color: var(--secondary-color);
+    border-radius: 2px;
+    background: var(--Light-FontColor);
+    color: var(--Button-Font);
     text-align: center;
-    padding: 15px 0;
+    padding: 16px 0;
+    margin-top: 10px;
     font-size: 16px;
+    font-family: var(--Font-Family);
+    letter-spacing: 2px;
+}
+.contact-form button:hover {
+    background-color: var(--DarkGray-Font);
+    color: var(--Light-FontColor);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #000;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-icons a {
+    margin: 0;
+}
+.footer-icons i {
+    color: var(--Gray-Font);
+    justify-content: center;
+    margin: 40px;
+    padding: 10px;
+}
+
+.footer-icons i:hover {
+    color: var(--Light-FontColor);
 }
