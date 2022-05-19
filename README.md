@@ -18,7 +18,10 @@ The proposal of this project is to create a web application to present a profess
 – [Application deployed at live URL](https://rfabreu.github.io/module-two-challenge/)<br />
 – [GitHub code repository](https://github.com/rfabreu/module-two-challenge)
 
+### External Resources
 
+– [CSS Library:](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css)<br />
+*   This CSS library was used to import the the footer icons for GitHub and LinkedIn.
 
 <br />
 
