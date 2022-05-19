@@ -127,9 +127,10 @@ header a {
 .description {
     color: var(--Gray-Font);
     font-family: var(--Font-Family);
+    font-size: large;
     letter-spacing: 1px;
-    line-height: 1.2;
-    margin-top: 20px;
+    line-height: 1.4;
+    margin-top: 40px;
 }
 
 .secondary-container {
