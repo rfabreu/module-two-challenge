@@ -177,7 +177,14 @@ header a {
     margin-top: 40px;
 }
 
+/* PORTFOLIO STYLES START */
 .secondary-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 40px;
+}
+
+.secondary-container div {
     display: flex;
     flex-wrap: wrap;
     padding: 0 40px;
@@ -186,7 +193,7 @@ header a {
 .project {
     flex: 30%;
     max-width: 40%;
-    padding: 0 4px;
+    /* padding: 0 4px; */
 }
 
 .project img {
